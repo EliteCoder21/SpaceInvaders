@@ -4,4 +4,18 @@ The alien enemies are displayed in red and are programmed to move horizontally a
 When a player’s green bullet hits a red alien, the alien is removed from the screen, and the player earns one point. The point total is tracked using an unsigned integer counter displayed on the hex display. Alien bullets can potentially hit the player, introducing a risk-reward element and encouraging strategic movement and shooting.
 This implementation features basic enemy AI driven by an LFSR for randomized behavior, a simple collision detection system between player bullets and aliens, and between alien bullets and the player. It also includes real-time controls for horizontal movement and firing, visual color-coded distinctions (player in green, aliens in red, alien bullets in orange), and a scoring system based on successful hits.
 Below is a sample figure of gameplay:
-<pre> ``` ⬛ 🟥 ⬛ 🟥 ⬛ 🟥 ⬛ 🟥 ⬛ 🟥 ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ 🟥 ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ 🟩 ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ 🟩 ⬛ ⬛ ⬛ ⬛ ⬛ ``` </pre>
+<pre> 
+
+⬛ 🟥 ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛
+⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ 🟥 ⬛ ⬛ ← alien characters
+⬛ ⬛ ⬛ 🟥 ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛
+⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛   
+⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛
+⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛
+⬛ ⬛ ⬛ ⬛ ⬛ 🟩 ⬛ ⬛ ⬛ ⬛ ⬛ ← player bullet
+⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛
+⬛ ⬛ 🟥 ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ← enemy bullet
+⬛ ⬛ ⬛ ⬛ ⬛ 🟩 ⬛ ⬛ ⬛ ⬛ ⬛
+⬛ ⬛ ⬛ ⬛ 🟩 🟩 🟩 ⬛ ⬛ ⬛ ⬛ ← player character
+
+</pre>
