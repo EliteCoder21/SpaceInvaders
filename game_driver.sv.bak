@@ -1,0 +1,40 @@
+module game_driver(RST, RedPixels, GrnPixels);
+    input logic               RST;
+    output logic [15:0][15:0] RedPixels; // 16x16 array of red LEDs
+    output logic [15:0][15:0] GrnPixels; // 16x16 array of green LEDs
+	 
+	 always_comb 
+	 begin
+		
+		// Reset - Turn off all LEDs
+		if (RST)
+		begin
+			RedPixels = '0;
+			//GrnPixels = '0;
+		end
+		
+	  // Display a pattern
+		else
+		begin
+		  
+		end
+	end
+	
+	player_control p ()
+
+endmodule
+
+
+module LED_test_testbench();
+
+	logic RST;
+	logic [15:0][15:0] RedPixels, GrnPixels;
+	
+	LED_test dut (.RST, .RedPixels, .GrnPixels);
+	
+	initial begin
+	RST = 1'b1; #10;
+	RST = 1'b0; #10;
+	end
+	
+endmodule

@@ -1,0 +1,52 @@
+module light_shifter (
+
+    input wire clk,
+    input wire reset,
+    input wire btn_left,
+    input wire btn_right,
+    output reg [8:0] light
+);
+
+    // Synchronizer + Edge Detection for left button
+    reg [1:0] btn_left_sync;
+    reg btn_left_prev;
+    wire btn_left_edge;
+
+    // Synchronizer + Edge Detection for right button
+    reg [1:0] btn_right_sync;
+    reg btn_right_prev;
+    wire btn_right_edge;
+
+    // Edge detection wires
+    assign btn_left_edge  = (btn_left_sync[1] & ~btn_left_prev);
+    assign btn_right_edge = (btn_right_sync[1] & ~btn_right_prev);
+
+    always @(posedge clk) begin
+        if (reset) begin
+            light <= 8'b00000001;
+
+            // Reset button synchronizers
+            btn_left_sync <= 0;
+            btn_right_sync <= 0;
+            btn_left_prev <= 0;
+            btn_right_prev <= 0;
+
+        end else begin
+            // 2-stage synchronizer for left and right buttons
+            btn_left_sync <= {btn_left_sync[0], btn_left};
+            btn_right_sync <= {btn_right_sync[0], btn_right};
+
+            // Store previous sync'd button values
+            btn_left_prev <= btn_left_sync[1];
+            btn_right_prev <= btn_right_sync[1];
+
+            // Shift light pattern
+            if (btn_left_edge) begin
+                light <= light << 1;  // Logical left
+            end else if (btn_right_edge) begin
+                light <= light >> 1;  // Logical right
+            end
+        end
+    end
+
+endmodule

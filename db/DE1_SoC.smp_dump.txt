@@ -1,0 +1,6 @@
+
+State Machine - |DE1_SoC|light_shifter:s|current_state
+Name current_state~5 current_state~4 
+current_state.IDLE 0 0 
+current_state.LEFT_WAIT_RELEASE 0 1 
+current_state.RIGHT_WAIT_RELEASE 1 0 

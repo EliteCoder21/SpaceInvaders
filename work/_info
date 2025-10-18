@@ -1,0 +1,616 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/lab1
+valiens
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1755290449
+!i10b 1
+!s100 l2^HSTJRZDJcDg1FNdZd?2
+IhL695aoDM22a_8g9=l0K[3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 aliens_sv_unit
+S1
+Z4 dC:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/final-project
+w1755242909
+8./aliens.sv
+F./aliens.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1755290449.000000
+!s107 ./aliens.sv|
+!s90 -reportprogress|300|./aliens.sv|
+!i113 1
+Z7 tCvgOpt 0
+vbinary_score_to_decimal_7seg
+R1
+R2
+!i10b 1
+!s100 7WX_:fn6[?hgFJnbPS0Xh2
+ID3Bj[DU`jM@V<;ShnU8W<2
+R3
+!s105 binary_score_to_decimal_7seg_sv_unit
+S1
+R4
+w1755288111
+8./binary_score_to_decimal_7seg.sv
+F./binary_score_to_decimal_7seg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./binary_score_to_decimal_7seg.sv|
+!s90 -reportprogress|300|./binary_score_to_decimal_7seg.sv|
+!i113 1
+R7
+vclock_divider
+R1
+R2
+!i10b 1
+!s100 4Mm6;MRPTlPiWY_jaCgEe3
+IQ`SENO<LIjiN4XUU?enia3
+R3
+!s105 clock_divider_sv_unit
+S1
+R4
+w1753401978
+8./clock_divider.sv
+F./clock_divider.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./clock_divider.sv|
+!s90 -reportprogress|300|./clock_divider.sv|
+!i113 1
+R7
+vDE1_SoC
+R1
+R2
+!i10b 1
+!s100 Pg1O234De9<Y@WXGn7O1U3
+IRb9kVD0>T06QOcci@QKeE2
+R3
+Z8 !s105 DE1_SoC_sv_unit
+S1
+R4
+Z9 w1755290272
+Z10 8./DE1_SoC.sv
+Z11 F./DE1_SoC.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 ./DE1_SoC.sv|
+Z13 !s90 -reportprogress|300|./DE1_SoC.sv|
+!i113 1
+R7
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 o:kHXnSgCjm@a3fBVSf803
+I4bjaCVFDAe2C_M2;[>49[1
+R3
+R8
+S1
+R4
+R9
+R10
+R11
+L0 66
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R7
+n@d@e1_@so@c_testbench
+vdraw_enemies
+R1
+R2
+!i10b 1
+!s100 O=GS1WiB@8mlM>mP?WOo92
+I2QhY[EzdIjC6F_Z]izSOl3
+R3
+!s105 draw_enemies_sv_unit
+S1
+R4
+w1755242957
+8./draw_enemies.sv
+F./draw_enemies.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./draw_enemies.sv|
+!s90 -reportprogress|300|./draw_enemies.sv|
+!i113 1
+R7
+vgame_driver
+R1
+Z14 !s110 1754807918
+!i10b 1
+!s100 42Un;Pz2KmN>QD61hNfWi2
+IG2`3a2PVbdRBJ?[D?bof32
+R3
+Z15 !s105 game_driver_sv_unit
+S1
+R4
+Z16 w1754789644
+Z17 8./game_driver.sv
+Z18 F./game_driver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z19 !s108 1754807918.000000
+Z20 !s107 ./game_driver.sv|
+Z21 !s90 -reportprogress|300|./game_driver.sv|
+!i113 1
+R7
+vLED_test_testbench
+R1
+R14
+!i10b 1
+!s100 @0OeTAH2mIR4Ffo^nN><40
+I^5U_bNGNDWQfJH4H>AO^f2
+R3
+R15
+S1
+R4
+R16
+R17
+R18
+L0 10
+R5
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R7
+n@l@e@d_test_testbench
+vLEDDriver
+R1
+Z22 !s110 1755290450
+!i10b 1
+!s100 4O6gifcBKK7kXjoWPoAD83
+IhSFTmf3J;kN^zRe7Vf4`<1
+R3
+Z23 !s105 LEDDriver_sv_unit
+S1
+R4
+Z24 w1754806984
+Z25 8./LEDDriver.sv
+Z26 F./LEDDriver.sv
+L0 13
+R5
+r1
+!s85 0
+31
+R6
+Z27 !s107 ./LEDDriver.sv|
+Z28 !s90 -reportprogress|300|./LEDDriver.sv|
+!i113 1
+R7
+n@l@e@d@driver
+vLEDDriver_Test
+R1
+R22
+!i10b 1
+!s100 7d5<0Kb7WnMbAASRRbV<P3
+I24z]WBdkFVd33ESQ4Ae<Y3
+R3
+R23
+S1
+R4
+R24
+R25
+R26
+Z29 L0 34
+R5
+r1
+!s85 0
+31
+R6
+R27
+R28
+!i113 1
+R7
+n@l@e@d@driver_@test
+vLEDDriver_TestPhysical
+R1
+R22
+!i10b 1
+!s100 WjU?EdQdFmD<AcS828m012
+ISWgN:gM:a;Zh2KTzI;7192
+R3
+R23
+S1
+R4
+R24
+R25
+R26
+L0 71
+R5
+r1
+!s85 0
+31
+R6
+R27
+R28
+!i113 1
+R7
+n@l@e@d@driver_@test@physical
+vlight_shifter
+R1
+Z30 !s110 1754071708
+!i10b 1
+!s100 [h1eX7PUC3M9aNSBmZXzi1
+I>=^55OmZ9<4a=AYPQEKLn1
+R3
+!s105 light_shifter_sv_unit
+S1
+Z31 dC:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/lab4
+w1754071577
+8./light_shifter.sv
+F./light_shifter.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z32 !s108 1754071708.000000
+!s107 ./light_shifter.sv|
+!s90 -reportprogress|300|./light_shifter.sv|
+!i113 1
+R7
+vmux2_1
+R1
+Z33 !s110 1751158744
+!i10b 1
+!s100 db@k@fnga:kY6M:UDM?iV1
+IJ>QNS`gdkcliNLo;gQk_83
+R3
+Z34 !s105 mux2_1_sv_unit
+S1
+R0
+Z35 w1751139639
+Z36 8./mux2_1.sv
+Z37 F./mux2_1.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z38 !s108 1751158744.000000
+Z39 !s107 ./mux2_1.sv|
+Z40 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+R7
+vmux2_1_testbench
+R1
+R33
+!i10b 1
+!s100 AaPWH7@z6J3I9g7Ce@1ED1
+I;eMHfQ<@c56k5bMBE8Am71
+R3
+R34
+S1
+R0
+R35
+R36
+R37
+L0 8
+R5
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 1
+R7
+vplayer_bullets
+R1
+R22
+!i10b 1
+!s100 >T8I`:W_1h:@n?<mRgo3n3
+INYWV8Y975?5XbS1m7eN_93
+R3
+!s105 player_bullets_sv_unit
+S1
+R4
+w1754877224
+8./player_bullets.sv
+F./player_bullets.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1755290450.000000
+!s107 ./player_bullets.sv|
+!s90 -reportprogress|300|./player_bullets.sv|
+!i113 1
+R7
+vplayer_control
+R1
+R2
+!i10b 1
+!s100 FU5=Mf2goD?Ae0@2zH?P^1
+IPb7N80OBn5kCa[ELS0ZRa0
+R3
+Z41 !s105 player_control_sv_unit
+S1
+R4
+Z42 w1754873523
+Z43 8./player_control.sv
+Z44 F./player_control.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z45 !s107 ./player_control.sv|
+Z46 !s90 -reportprogress|300|./player_control.sv|
+!i113 1
+R7
+vplayer_control_testbench
+R1
+R2
+!i10b 1
+!s100 YA:E7_2<Qc>on=a:R`QNJ0
+I5z@aNZk`SJoHWYaaERP2l1
+R3
+R41
+S1
+R4
+R42
+R43
+R44
+L0 45
+R5
+r1
+!s85 0
+31
+R6
+R45
+R46
+!i113 1
+R7
+vplayerButtons
+R1
+Z47 !s110 1753751020
+!i10b 1
+!s100 [DbBhXzc6>3OzaHl0V1k63
+I>hM2^ZPzKAPinNI^F8fHd2
+R3
+!s105 playerButtons_sv_unit
+S1
+R31
+w1753739380
+8./playerButtons.sv
+F./playerButtons.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z48 !s108 1753751020.000000
+!s107 ./playerButtons.sv|
+!s90 -reportprogress|300|./playerButtons.sv|
+!i113 1
+R7
+nplayer@buttons
+vrandom_choice
+R1
+R2
+!i10b 1
+!s100 GcMcToM46a?X6Q7l22zA<2
+IIoB_1JPbX]ez@_]Y?DDSd1
+R3
+Z49 !s105 random_choice_sv_unit
+S1
+R4
+Z50 w1755219461
+Z51 8./random_choice.sv
+Z52 F./random_choice.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z53 !s107 ./random_choice.sv|
+Z54 !s90 -reportprogress|300|./random_choice.sv|
+!i113 1
+R7
+vrandom_choice_testbench
+R1
+R2
+!i10b 1
+!s100 Kz4H__5_YzXQ6al?]91JF3
+I8F=O5>2]Lh`0Y2L;P4a1V2
+R3
+R49
+S1
+R4
+R50
+R51
+R52
+L0 21
+R5
+r1
+!s85 0
+31
+R6
+R53
+R54
+!i113 1
+R7
+vrope
+R1
+R47
+!i10b 1
+!s100 bPA`<jz@8WXS;5T`@bD=X3
+I5FFHm1ZmVQC9OBddQ@T7o2
+R3
+!s105 rope_sv_unit
+S1
+R31
+w1753745079
+8./rope.sv
+F./rope.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R48
+!s107 ./rope.sv|
+!s90 -reportprogress|300|./rope.sv|
+!i113 1
+R7
+vrunway
+R1
+!s110 1753469703
+!i10b 1
+!s100 >oS?;[zd3oCIk>[B?VJZ@1
+I^];HGNMRZWka?i63?4fJ@0
+R3
+!s105 runway_sv_unit
+S1
+Z55 dC:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/lab3
+w1753467546
+8./runway.sv
+F./runway.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1753469703.000000
+!s107 ./runway.sv|
+!s90 -reportprogress|300|./runway.sv|
+!i113 1
+R7
+vseg7
+R1
+!s110 1752254550
+!i10b 1
+!s100 UHfFAXiYCYbj<j^GZKX`k2
+I?Ylzo0VNaehfeQkWmkZ642
+R3
+R8
+S1
+dC:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/lab2
+w1752253295
+R10
+R11
+L0 30
+R5
+r1
+!s85 0
+31
+!s108 1752254550.000000
+R12
+R13
+!i113 1
+R7
+vsimple
+R1
+Z56 !s110 1753415552
+!i10b 1
+!s100 5TQ6Ib0]4eDMAbVBaZDV91
+IjZ96M:T]HYolBbiYa2;Sb2
+R3
+Z57 !s105 simple_sv_unit
+S1
+R55
+Z58 w1753401674
+Z59 8./simple.sv
+Z60 F./simple.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z61 !s108 1753415552.000000
+Z62 !s107 ./simple.sv|
+Z63 !s90 -reportprogress|300|./simple.sv|
+!i113 1
+R7
+vsimple_testbench
+R1
+R56
+!i10b 1
+!s100 XC@@KRNhRGhT6FWHVZfZ;3
+I]CL`HLf88_QmRe3Ag:[ZJ0
+R3
+R57
+S1
+R55
+R58
+R59
+R60
+R29
+R5
+r1
+!s85 0
+31
+R61
+R62
+R63
+!i113 1
+R7
+vTugOfWarHex
+R1
+R30
+!i10b 1
+!s100 B^Sljo1n5VJBEa=4>HMMG3
+I8YEFjI42][?0CWk9m3j4V1
+R3
+!s105 TugOfWarHex_sv_unit
+S1
+R31
+w1754027433
+8./TugOfWarHex.sv
+F./TugOfWarHex.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R32
+!s107 ./TugOfWarHex.sv|
+!s90 -reportprogress|300|./TugOfWarHex.sv|
+!i113 1
+R7
+n@tug@of@war@hex

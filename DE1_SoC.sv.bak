@@ -1,0 +1,88 @@
+module DE1_SoC (CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, KEY, LEDR, SW);
+
+	input logic CLOCK_50; // 50MHz clock.
+	output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	output logic [9:1] LEDR;
+	input logic [3:0] KEY; // True when not pressed, False when pressed
+	input logic [9:0] SW;
+	
+	// Auxillary variables
+	logic [1:0] w;
+	logic [8:0] run_out;
+	logic [8:0] out;
+	
+	// Generate clk off of CLOCK_50, whichClock picks rate.
+	logic reset;
+	logic [31:0] div_clk;
+	
+	// Assign old values
+	assign reset = SW[0];
+	assign run_out = out;
+		
+	// Might need to check later
+	playerButtons b (.clk(CLOCK_50), .playerInput(KEY), .out(w));
+	
+	rope s (.clk(CLOCK_50), .reset, .playerInput(w), .lights(run_out), .out); 
+	
+	// Show signals on LEDRs so we can see what is happening
+	assign LEDR[9:1] = out;	
+endmodule
+
+module DE1_SoC_testbench();
+	logic CLOCK_50;
+	logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	logic [9:0] LEDR;
+	logic [3:0] KEY;
+	logic [9:0] SW;
+	
+	DE1_SoC dut (CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, KEY, LEDR, SW);
+	
+	// Set up a simulated clock.
+	parameter CLOCK_PERIOD=100;
+	
+	initial begin
+		CLOCK_50 <= 0;
+		forever #(CLOCK_PERIOD/2) CLOCK_50 <= ~CLOCK_50; // Forever toggle the clock
+	end
+	
+	// Test the design.
+	initial begin
+	
+		// Left Win
+	
+		// Reset
+										repeat(1) @(posedge CLOCK_50);
+		SW[9] <= 1;					repeat(1) @(posedge CLOCK_50); // Always reset FSMs at start
+		SW[9] <= 0;					repeat(1) @(posedge CLOCK_50); // Always reset FSMs at start
+		
+		// Loop until win
+		for (int i = 0; i < 4; i = i + 1) begin
+			KEY[3] <= 1; KEY[0] <= 0;		repeat(1) @(posedge CLOCK_50);
+			KEY[3] <= 0; KEY[0] <= 0;		repeat(1) @(posedge CLOCK_50);
+		end
+		
+		// Right Win
+		
+		// Reset
+										repeat(1) @(posedge CLOCK_50);
+		SW[9] <= 1;					repeat(1) @(posedge CLOCK_50); // Always reset FSMs at start
+		SW[9] <= 0;					repeat(1) @(posedge CLOCK_50); // Always reset FSMs at start
+		
+		for (int i = 0; i < 4; i = i + 1) begin
+			KEY[3] <= 0; KEY[0] <= 1;		repeat(1) @(posedge CLOCK_50);
+			KEY[3] <= 0; KEY[0] <= 0;		repeat(1) @(posedge CLOCK_50);
+		end
+		
+		// Tie
+		
+		// Reset
+										repeat(1) @(posedge CLOCK_50);
+		SW[9] <= 1;					repeat(1) @(posedge CLOCK_50); // Always reset FSMs at start
+		SW[9] <= 0;					repeat(1) @(posedge CLOCK_50); // Always reset FSMs at start
+		
+		// Equal force
+		KEY[3] <= 1; KEY[0] <= 1;		repeat(1) @(posedge CLOCK_50);
+		
+		$stop;
+	end
+endmodule

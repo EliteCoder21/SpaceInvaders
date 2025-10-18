@@ -1,0 +1,26 @@
+module aliens (
+    input  logic         clk,
+    input  logic         rst,
+    output logic [10:0][15:0]  bullets,
+    output logic [10:0][15:0]  aliens,
+	 output logic [10:0][15:0]  output
+);
+
+    // Shift aliens right or left
+    logic [10:0][15:0] data_reg;
+	 logic [3:0] i;
+
+    // Output assignment
+    assign data_out = data_reg;
+
+    // Edge detection and shift logic
+    always_ff @(posedge clk or posedge rst) begin
+        if (rst) begin
+            data_reg <= 0;
+        end else begin
+            
+            data_reg <= bullets | aliens;
+        end
+    end
+
+endmodule

@@ -1,0 +1,28 @@
+module TugOfWarHex (HEX0, HEX5, winner);
+
+	output logic [6:0] HEX0, HEX5;
+	input logic [2:0] winner;
+
+	always_comb begin
+		case (winner)
+		//when one is getting passed player 1 wins or 2 wins otherwise
+			2'b10: begin
+				HEX0 = 7'b1111001;  // player 1
+				HEX5 = 7'b1111111;
+
+			end 
+
+			2'b01: begin
+				HEX0 = 7'b0100100;  // player 2
+				HEX5 = 7'b1111111;
+			end 
+
+			default: begin
+				HEX0 = 7'b1111111;
+				HEX5 = 7'b1111111;
+			end
+		endcase
+	end
+
+	//endcase
+endmodule

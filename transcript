@@ -1,0 +1,2032 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:48:25 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 12:48:26 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:48:26 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_random_choice.sv 
+# ** Error: (vlog-7) Failed to open design unit file "./DE1_random_choice.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:48:26 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 8
+# C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./DE1_random_choice.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:17 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 12:49:17 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:17 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 12:49:17 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:17 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 12:49:17 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:17 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 12:49:17 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:17 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal.sv 
+# ** Error: (vlog-7) Failed to open design unit file "./binary_score_to_decimal.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 12:49:17 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./binary_score_to_decimal.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:28 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 12:50:28 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:29 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 12:50:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 12:50:30 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# ** Error: (vsim-3037) ./DE1_SoC.sv(55): Missing instance name in instantiation of 'random_choice'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Error: (vsim-3037) ./DE1_SoC.sv(57): Missing instance name in instantiation of 'aliens'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Error: (vsim-3037) ./DE1_SoC.sv(59): Missing instance name in instantiation of 'draw_enemies'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Error: (vsim-3037) ./DE1_SoC.sv(61): Missing instance name in instantiation of 'binary_score_to_decimal_7seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 20
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:51:52 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 12:51:52 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 12:50:30 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# ** Error: (vsim-3037) ./DE1_SoC.sv(55): Missing instance name in instantiation of 'random_choice'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Error: (vsim-3037) ./DE1_SoC.sv(57): Missing instance name in instantiation of 'aliens'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Error: (vsim-3037) ./DE1_SoC.sv(59): Missing instance name in instantiation of 'draw_enemies'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Error: (vsim-3037) ./DE1_SoC.sv(61): Missing instance name in instantiation of 'binary_score_to_decimal_7seg'.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 20
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:57:30 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 12:57:30 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 12:50:30 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(128)
+#    Time: 500750 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 128
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:49 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 12:58:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:49 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 12:58:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:49 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 12:58:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:49 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 12:58:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:49 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 12:58:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:49 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 12:58:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:49 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 12:58:50 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:50 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 12:58:50 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:58:50 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 12:58:50 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:58:56 on Aug 15,2025, Elapsed time: 0:08:26
+# Errors: 8, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 12:58:56 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(128)
+#    Time: 500750 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 128
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:24 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:02:24 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:24 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:02:24 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:24 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:02:25 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:25 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:02:25 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:25 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:02:25 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:25 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:02:25 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:25 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:02:25 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:25 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:02:25 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:25 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:02:25 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:30 on Aug 15,2025, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:02:31 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(128)
+#    Time: 500750 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 128
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/final-project/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:03 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:03:03 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:03 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:03:03 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:03 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:03:04 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:04 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:03:04 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:04 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:03:04 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:04 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:03:04 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:04 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:03:04 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:04 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:03:04 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:04 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:03:04 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:03:06 on Aug 15,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:03:06 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(128)
+#    Time: 500750 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 128
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:31 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:04:32 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:04:32 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:04:37 on Aug 15,2025, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:04:37 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 500850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:13 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:05:13 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:13 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:05:13 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:13 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:05:13 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:13 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:05:13 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:13 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:05:13 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:13 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:05:14 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:14 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:05:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:14 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:05:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:05:14 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:05:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:05:19 on Aug 15,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:05:19 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 500850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:08:20 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:08:20 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:08:21 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:08:26 on Aug 15,2025, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:08:26 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 900850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+add wave -position end  sim:/DE1_SoC_testbench/dut/Driver/RedPixels
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/final-project/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:14 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:10:14 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:10:17 on Aug 15,2025, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:10:17 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 900850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+add wave -position 1  sim:/DE1_SoC_testbench/dut/divider/divided_clocks
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/final-project/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:13:29 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:13:29 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:13:32 on Aug 15,2025, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:13:32 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(72): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 900850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:34 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:17:34 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:17:41 on Aug 15,2025, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:17:41 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(73): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(130)
+#    Time: 900850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 130
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:55 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:56 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:27:56 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:28:01 on Aug 15,2025, Elapsed time: 0:10:20
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:28:01 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(73): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(130)
+#    Time: 4105350 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 130
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:00 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:36:00 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:00 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:36:00 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:00 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:36:00 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:00 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:36:00 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:01 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:36:01 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:01 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:36:01 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:01 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:36:01 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:01 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:36:01 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:36:01 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:36:01 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:36:06 on Aug 15,2025, Elapsed time: 0:08:05
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:36:06 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(73): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(130)
+#    Time: 4105350 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 130
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:57 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:37:58 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:37:58 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:38:04 on Aug 15,2025, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:38:04 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(73): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 4104350 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+add wave -position end  sim:/DE1_SoC_testbench/dut/rando/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/final-project/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:09 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:39:09 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:39:12 on Aug 15,2025, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:39:12 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(73): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 4104350 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+add wave -position 2  sim:/DE1_SoC_testbench/HEX1
+add wave -position 3  sim:/DE1_SoC_testbench/HEX2
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/HRISHI/Documents/University of Washington Workspace/Classes/Summer 2025/ee 271/labs/final-project/DE1_SoC_wave.do}
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 13:40:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./random_choice.sv 
+# -- Compiling module random_choice
+# -- Compiling module random_choice_testbench
+# 
+# Top level modules:
+# 	random_choice_testbench
+# End time: 13:40:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./aliens.sv 
+# -- Compiling module aliens
+# 
+# Top level modules:
+# 	aliens
+# End time: 13:40:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./draw_enemies.sv 
+# -- Compiling module draw_enemies
+# 
+# Top level modules:
+# 	draw_enemies
+# End time: 13:40:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./binary_score_to_decimal_7seg.sv 
+# -- Compiling module binary_score_to_decimal_7seg
+# 
+# Top level modules:
+# 	binary_score_to_decimal_7seg
+# End time: 13:40:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:40:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./player_control.sv 
+# -- Compiling module player_control
+# -- Compiling module player_control_testbench
+# 
+# Top level modules:
+# 	player_control_testbench
+# End time: 13:40:49 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:49 on Aug 15,2025
+# vlog -reportprogress 300 ./LEDDriver.sv 
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# 
+# Top level modules:
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# End time: 13:40:50 on Aug 15,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:50 on Aug 15,2025
+# vlog -reportprogress 300 ./player_bullets.sv 
+# -- Compiling module player_bullets
+# 
+# Top level modules:
+# 	player_bullets
+# End time: 13:40:50 on Aug 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:40:52 on Aug 15,2025, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 13:40:52 on Aug 15,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.player_bullets
+# Loading work.player_control
+# Loading work.random_choice
+# Loading work.aliens
+# Loading work.draw_enemies
+# Loading work.binary_score_to_decimal_7seg
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(73): [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ./DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: ./DE1_SoC.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(20): [TFMPC] - Too few port connections. Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/divider File: ./clock_divider.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(20): [TFMPC] - Missing connection for port 'reset'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(129)
+#    Time: 4104350 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 129
+# End time: 13:50:25 on Aug 15,2025, Elapsed time: 0:09:33
+# Errors: 0, Warnings: 3
