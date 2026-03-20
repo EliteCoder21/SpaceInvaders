@@ -1,36 +1,78 @@
-// A driver for the 16x16x2 LED display expansion board.
-// Read below for an overview of the ports.
-// IMPORTANT: You do not need to necessarily modify this file. But if you do, be sure you know what you are doing.
-
-// FREQDIV: (Parameter) Sets the scanning speed (how often the display cycles through rows)
-//          The CLK input divided by 2^(FREQDIV) is the interval at which the driver switches rows.
-// GPIO_1: (Output) The 36-pin GPIO1 header, as on the DE1-SoC board.
-// RedPixels: (Input) A 16x16 array of logic items corresponding to the red pixels you'd like to have lit on the display.
-// GrnPixels: (Input) A 16x16 array of logic items corresponding to the green pixels you'd like to have lit on the display.
-// EnableCount: (Input) Whether to continue moving through the rows.
-// CLK: (Input) The system clock.
-// RST: (Input) Resets the display driver. Required during startup before use.
+////////////////////////////////////////////////////////////////////////////////
+// LEDDriver.sv - 16x16 Bi-Color LED Matrix Driver
+// Target Board: DE1-SoC with 16x16 bi-color LED expansion board
+// Course: EE 271
+//
+// Description:
+//     This module drives a 16x16 bi-color (red/green) LED matrix via the
+//     GPIO_1 expansion header. It implements a row-scanning technique where
+//     each row is enabled sequentially at a configurable frequency. When a
+//     row is selected, the corresponding red and green pixel data for that
+//     row is driven onto the GPIO pins.
+//
+//     The matrix uses row multiplexing: at any given time, only one row
+//     is actively being driven. This creates the illusion of a full display
+//     through persistence of vision when scanned at sufficient speed (>24 Hz).
+//
+// GPIO_1 Pin Mapping (see DE1_SoC.qsf for actual pin assignments):
+//     GPIO_1[35:32] - 4-bit row select (one-hot encoding, 16 rows)
+//     GPIO_1[31:16] - Green LED row data (16 bits, one per column)
+//     GPIO_1[15:0]  - Red LED row data (16 bits, one per column)
+//
+// Parameters:
+//     FREQDIV - Clock divider factor for row scanning frequency
+//               Effective scan rate = CLK / 2^(FREQDIV+4)
+//               Higher values = slower scanning = potential flicker
+//               Lower values = faster scanning = dimmer LEDs
+//
+// Note: For most applications, the default FREQDIV=0 works well with
+//       an appropriately divided clock from clock_divider module.
+////////////////////////////////////////////////////////////////////////////////
 module LEDDriver #(parameter FREQDIV = 0) (GPIO_1, RedPixels, GrnPixels, EnableCount, CLK, RST);
+    // Outputs: 36-bit GPIO interface to LED matrix
     output logic [35:0] GPIO_1;
-    input logic [15:0][15:0] RedPixels ;
-    input logic [15:0][15:0] GrnPixels ;
-    input logic EnableCount, CLK, RST;
+    
+    // Inputs: Pixel data buffers (16x16 arrays)
+    input logic [15:0][15:0] RedPixels ;   // Red channel pixel data
+    input logic [15:0][15:0] GrnPixels ;   // Green channel pixel data
+    input logic EnableCount, CLK, RST;     // Control signals
 
+    // Row scanning counter
+    // Bits [FREQDIV+3:FREQDIV] extract 4 bits that cycle through rows 0-15
     reg [(FREQDIV + 3):0] Counter;
     logic [3:0] RowSelect;
+    
+    // RowSelect uses a 4-bit value to select one of 16 rows
+    // As Counter increments, RowSelect cycles through 0, 1, 2, ... F, 0, ...
     assign RowSelect = Counter[(FREQDIV + 3):FREQDIV];
 
+    // Counter increments on each clock when enabled
+    // When Counter overflows, RowSelect wraps automatically (4-bit behavior)
     always_ff @(posedge CLK or posedge RST)
     begin
         if(RST) Counter <= 0;
         else if(EnableCount) Counter <= Counter + 1'b1;
     end
     
+    // Drive GPIO pins with selected row's pixel data
+    // RowSelect[35:32] - One-hot encoded row enable (only one bit high at a time)
     assign GPIO_1[35:32] = RowSelect;
+    
+    // Green pixel data for selected row (16 columns)
+    // GrnPixels[RowSelect][col] gets mapped to GPIO_1[31-col]
     assign GPIO_1[31:16] = { GrnPixels[RowSelect][0], GrnPixels[RowSelect][1], GrnPixels[RowSelect][2], GrnPixels[RowSelect][3], GrnPixels[RowSelect][4], GrnPixels[RowSelect][5], GrnPixels[RowSelect][6], GrnPixels[RowSelect][7], GrnPixels[RowSelect][8], GrnPixels[RowSelect][9], GrnPixels[RowSelect][10], GrnPixels[RowSelect][11], GrnPixels[RowSelect][12], GrnPixels[RowSelect][13], GrnPixels[RowSelect][14], GrnPixels[RowSelect][15] };
+    
+    // Red pixel data for selected row (16 columns)
+    // RedPixels[RowSelect][col] gets mapped to GPIO_1[15-col]
     assign GPIO_1[15:0] = { RedPixels[RowSelect][0], RedPixels[RowSelect][1], RedPixels[RowSelect][2], RedPixels[RowSelect][3], RedPixels[RowSelect][4], RedPixels[RowSelect][5], RedPixels[RowSelect][6], RedPixels[RowSelect][7], RedPixels[RowSelect][8], RedPixels[RowSelect][9], RedPixels[RowSelect][10], RedPixels[RowSelect][11], RedPixels[RowSelect][12], RedPixels[RowSelect][13], RedPixels[RowSelect][14], RedPixels[RowSelect][15] };
 endmodule
 
+////////////////////////////////////////////////////////////////////////////////
+// LEDDriver_Test - Functional testbench for LEDDriver module
+// Description:
+//     Verifies basic functionality of the LED matrix driver including
+//     row scanning, pixel data output, and reset behavior.
+////////////////////////////////////////////////////////////////////////////////
 module LEDDriver_Test();
     logic CLK, RST, EnableCount;
     logic [15:0][15:0]RedPixels;
@@ -68,6 +110,14 @@ module LEDDriver_Test();
     end
 endmodule
 
+////////////////////////////////////////////////////////////////////////////////
+// LEDDriver_TestPhysical - Physical test module with pattern display
+// Description:
+//     Displays a predefined pattern (smiley face) on the LED matrix.
+//     The Speed parameter controls scanning frequency.
+//     This is useful for verifying LED matrix wiring and functionality
+//     before integrating with game logic.
+////////////////////////////////////////////////////////////////////////////////
 module LEDDriver_TestPhysical(CLOCK_50, RST, Speed, GPIO_1);
     input logic CLOCK_50, RST;
     input logic [9:0] Speed;
