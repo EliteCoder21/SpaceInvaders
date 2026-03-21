@@ -52,7 +52,7 @@ This project implements a simplified version of the classic arcade game **Space 
 ## Project Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
+┌───────────────────────────────────────────────────────────────┐
 │                        DE1_SoC.sv                             │
 │                    (Top-Level Module)                         │
 └─────────────────────┬─────────────────────────────────────────┘
@@ -60,7 +60,7 @@ This project implements a simplified version of the classic arcade game **Space 
         ┌─────────────┼─────────────┬────────────────┐
         │             │             │                │
         ▼             ▼             ▼                ▼
-┌──────────────┐ ┌──────────┐ ┌────────────┐ ┌─────────────────┐
+┌─────────────┐ ┌──────────┐ ┌────────────┐ ┌─────────────────┐
 │clock_divider│ │ LEDDriver│ │  Game      │ │   Score Display │
 │             │ │          │ │  Logic     │ │                 │
 │ Generates   │ │ Drives   │ │            │ │ Converts binary │
